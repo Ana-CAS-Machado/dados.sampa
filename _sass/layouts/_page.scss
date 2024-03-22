@@ -1,0 +1,284 @@
+.title-padder {
+  padding: $title-padding;
+}
+
+h1.title {
+  @extend .subtle-txt-shadow;
+  padding: 0.5em 0;
+}
+
+
+.subtitle {
+  font-weight: normal;
+  margin-top: 5px;
+  text-shadow: 1px 1px 2px var(--text-shadow);
+}
+
+//Shared css in _post.scss
+
+
+/* --- Aligner --- */
+/* within page/posts */
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.9% 0 1.5% 0;
+}
+
+.column {
+  flex: 50%;
+
+  img {
+    width: 100%;
+    min-width: 250px;
+  }
+
+  .single {
+    width: 50%;
+    display: block;
+  }
+}
+
+.bootstrap{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.home-page{
+  width: 45rem;
+  padding: 25px 25px 25px 25px;
+  margin: 25px 25px 25px 25px;
+}
+
+.home-page-title{
+  text-transform: uppercase;
+}
+
+.dados{
+  width: 25rem;
+  padding: 25px 25px 25px 25px;
+  margin: 25px 25px 25px 25px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 1em;
+}
+
+
+.linha{
+  width: 300px;
+  border: 1px solid red;
+  margin-right: 40px;
+}
+
+.homepage-title{
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 70px;
+}
+
+//forms
+
+.box{
+  margin: 30rem 5rem 30rem 5rem;
+}
+
+.login-box {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  width: 400px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background-image: url(https://img.freepik.com/fotos-gratis/renderizacao-3d-de-um-projeto-de-comunicacao-de-rede-com-profundidade-de-campo-rasa_1048-12988.jpg?t=st=1711050827~exp=1711054427~hmac=4b8d8d49f8fc8f7fc65ef376220d4d68f779860f19c5d0aa47a8935abb8f7141&w=1060);
+  background-size: cover;
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+}
+
+.login-box h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.login-box .user-box {
+  position: relative;
+}
+
+.login-box .user-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+.login-box .user-box label {
+  position: absolute;
+  top:0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: .5s;
+}
+
+.login-box .user-box input:focus ~ label,
+.login-box .user-box input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #e4232d;
+  font-size: 12px;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+  -webkit-appearance: none;
+  
+}
+input[type=number] { 
+ -moz-appearance: textfield;
+ appearance: textfield;
+
+}
+
+.login-box form a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #e4232d;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  margin-top: 40px;
+  letter-spacing: 4px
+}
+
+.login-box a:hover {
+  background: #ff000d;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #e4232d,
+              0 0 25px #e4232d,
+              0 0 50px #e4232d,
+              0 0 100px #e4232d;
+}
+
+.login-box a span {
+  position: absolute;
+  display: block;
+}
+
+.login-box a span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #e4232d);
+  animation: btn-anim1 1s linear infinite;
+}
+
+@keyframes btn-anim1 {
+  0% {
+    left: -100%;
+  }
+  50%,100% {
+    left: 100%;
+  }
+}
+
+.login-box a span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #e4232d);
+  animation: btn-anim2 1s linear infinite;
+  animation-delay: .25s
+}
+
+
+@keyframes btn-anim2 {
+  0% {
+    top: -100%;
+  }
+  50%,100% {
+    top: 100%;
+  }
+}
+
+.login-box a span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #e4232d);
+  animation: btn-anim3 1s linear infinite;
+  animation-delay: .5s
+}
+
+@keyframes btn-anim3 {
+  0% {
+    right: -100%;
+  }
+  50%,100% {
+    right: 100%;
+  }
+}
+
+.login-box a span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #e4232d);
+  animation: btn-anim4 1s linear infinite;
+  animation-delay: .75s
+}
+
+@keyframes btn-anim4 {
+  0% {
+    bottom: -100%;
+  }
+  50%,100% {
+    bottom: 100%;
+  }
+}
+
+.caixa{
+  width: 302px;
+  height: 102px;
+  margin-top: 15px;
+  background-color: #3f040400;
+  color: #fff;
+  border-color: #f0eded;
+}
+
+.caixa:focus ~ label{
+  border-color: #e0e0e0;
+  color: #e4232d;
+}
+
+.btnSubmit{
+  background-color: #42040485;
+}
+
+#submitBtn{
+  background-color: #ffffff00;
+  border-style: none;
+}
+
+.dashboard{
+  height: 50rem;
+  border-color: #ffffff00;
+}

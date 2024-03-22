@@ -1,0 +1,33 @@
+<div class="box">
+ <div class="login-box">
+  <h2>Login</h2>
+  <form>
+    <div class="user-box">
+      <input type="text" name="name" id="name" required>
+      <label>Seu Nome</label>
+    </div>
+    <div class="user-box">
+     <input type="email" id="email" name="email" required>
+     <label for="email">Email:</label>
+    </div>
+    <div class="user-box">
+     <input type="number" id="phone" name="phone" required>
+     <label for="phone">Telefone:</label>
+    </div>
+    <div class="user-box">
+     <label for="message" class="message">Mensagem:</label><br>
+     <textarea class="caixa" id="message" name="message" placeholder="Digite sua mensagem aqui!"></textarea>
+    </div>
+    <a class="btnSubmit" href="#">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <button type="submit" id="submitBtn">Enviar</button>
+    </a>
+  </form>
+ </div>
+</div>
+
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="../assets/js/submit.js"></script>
