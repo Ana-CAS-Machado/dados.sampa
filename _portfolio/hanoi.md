@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tower of Hanoi
-img: "assets/img/portfolio/OIG1.png"
+feature-img: "assets/img/portfolio/OIG1.png"
 date: September 2014
 ---
 

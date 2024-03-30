@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Github
-img: "assets/img/portfolio/OIG22.png"
+feature-img: "assets/img/portfolio/OIG22.png"
 date: 20-10-2017
 tags: [Lorem]
 ---

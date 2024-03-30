@@ -2,7 +2,6 @@
 layout: post
 title: Cake
 feature-img: "assets/img/portfolio/OIG2.png"
-img: "assets/img/portfolio/OIG2.png"
 date: 27 September 2015
 tags: [Lorem, Ipsum]
 ---
