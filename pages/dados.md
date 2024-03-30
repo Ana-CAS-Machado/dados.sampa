@@ -2,7 +2,7 @@
 layout: page
 title: Dados
 permalink: /Dados/
-feature-img: "assets/img/pexels/travel.jpeg"
+feature-img: "assets/img/pexels/pexels-photo.png"
 tags: [Page]
 ---
 

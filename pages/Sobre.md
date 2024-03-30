@@ -2,7 +2,7 @@
 layout: page
 title: Sobre
 permalink: /sobre/
-feature-img: "assets/img/pexels/travel.jpeg"
+feature-img: "assets/img/pexels/computer.jpeg"
 tags: [Page]
 ---
 

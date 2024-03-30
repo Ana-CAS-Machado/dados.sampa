@@ -57,7 +57,6 @@ h1.title {
 }
 
 .dados{
-  width: 25rem;
   padding: 25px 25px 25px 25px;
   margin: 25px 25px 25px 25px;
   display: grid;
@@ -79,6 +78,10 @@ h1.title {
   font-size: 70px;
 }
 
+.dados-inseridos{
+  width: 21.688rem;
+}
+
 //forms
 
 .box{
@@ -87,15 +90,14 @@ h1.title {
 
 .login-box {
   position: absolute;
-  top: 70%;
+  top: 97%;
   left: 50%;
   width: 400px;
   padding: 40px;
   transform: translate(-50%, -50%);
-  background-image: url(https://img.freepik.com/fotos-gratis/renderizacao-3d-de-um-projeto-de-comunicacao-de-rede-com-profundidade-de-campo-rasa_1048-12988.jpg?t=st=1711050827~exp=1711054427~hmac=4b8d8d49f8fc8f7fc65ef376220d4d68f779860f19c5d0aa47a8935abb8f7141&w=1060);
-  background-size: cover;
+  background-color: #e4232d3f;
   box-sizing: border-box;
-  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  box-shadow: 0 15px 25px #e4232d;
   border-radius: 10px;
 }
 
