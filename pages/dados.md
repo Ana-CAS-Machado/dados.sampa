@@ -14,7 +14,7 @@ tags: [Page]
     <ul class="toc">
       {% for post in site.posts %}
         <li class="li-toc">
-          <a class="test" href="#{{ post.title | slugify }}">{{ post.title }}</a>
+          <a class="test" href="#{{ post.title | slugify }}">{{ post.tema }}</a>
         </li>
       {% endfor %}
     </ul>
@@ -26,7 +26,7 @@ tags: [Page]
      <div class="box">
        <span></span>
        <div class="content">
-         <h2>{{ post.title }}</h2>
+         <h2>{{ post.tema }}</h2>
          <p>{{ post.description }}</p>
          <a href="{{ post.url }}">Read More</a>
        </div>
