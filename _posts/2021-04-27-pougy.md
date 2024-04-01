@@ -2,6 +2,7 @@
 layout: post
 title: Pougy
 tema: Pougy
+# feature-img:  adicione uma imagem se quiser 
 description: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 categories: pougy
 ---
