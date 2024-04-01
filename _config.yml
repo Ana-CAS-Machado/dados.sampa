@@ -49,12 +49,9 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:name
-
 # Post
-collections:
   posts:
     output: true
-    permalink: /:collection/:title
     
 
 # BUILD SETTINGS

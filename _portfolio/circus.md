@@ -1,12 +1,12 @@
 ---
 layout: post
 title: Circus
-feature-img: "assets/img/portfolio/OIG.png"
+img: "assets/img/portfolio/OIG.png"
 date: September 2014
 tags: [Ipsum]
 ---
 
-![image]({{ page.img | relative_url }})
+
 
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, 
 eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 

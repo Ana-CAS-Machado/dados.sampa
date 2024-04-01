@@ -1,12 +1,12 @@
 ---
 layout: post
 title: Github
-feature-img: "assets/img/portfolio/OIG22.png"
+img: "assets/img/portfolio/OIG22.png"
 date: 20-10-2017
 tags: [Lorem]
 ---
 
-![image]({{ page.img | relative_url }})
+
 
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, 
 eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
