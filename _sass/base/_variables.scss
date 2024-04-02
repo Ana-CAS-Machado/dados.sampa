@@ -30,6 +30,7 @@ $x-sm-break: 320px;
 
 /* THEME COLOR SCHEMES */
 html, html[data-theme="light"] {
+  --background-navbar: #fbf7ff;
   --background: #ffffff;
   --blockquote: #eef7fa;
   --selection: #d4d4d4;
@@ -52,6 +53,7 @@ html, html[data-theme="light"] {
 }
 
 html[data-theme="dark"] {
+  --background-navbar: #3b3a3c;
   --background: #1c181f; // brand, background
   --blockquote: #373e47; // blockquote
   --selection: #545d68; // selection
