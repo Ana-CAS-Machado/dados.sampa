@@ -26,13 +26,14 @@ position: 3
  <div class="contain">
    {% for post in site.analise %}
      <div class="box-analis">
-       <span></span>
-       <div class="contente">
-         <h2>{{ post.tema }}</h2>
-         <p>{{ post.description }}</p>
-         <a href="{{ post.url }}">Read More</a>
-       </div>
-     </div>
+        <span></span>
+        <div class="contente">
+          <div class="linha"></div>
+          <h2>{{ post.tema }}</h2>
+          <p>{{ post.description }}</p>
+          <a class="btn" href="{{ post.url }}">Leia Mais</a>
+        </div>
+      </div>
    {% endfor %}
- </div>
+  </div>
 </div>

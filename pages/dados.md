@@ -26,10 +26,11 @@ tags: [Dados]
    {% for post in site.posts %}
      <div class="box">
        <span></span>
-       <div class="content">
+       <div class="cont">
+          <div class="linha"></div>
          <h2>{{ post.tema }}</h2>
          <p>{{ post.description }}</p>
-         <a href="{{ post.url }}">Read More</a>
+         <a class="btn" href="{{ post.url }}">Leia Mais</a>
        </div>
      </div>
    {% endfor %}
