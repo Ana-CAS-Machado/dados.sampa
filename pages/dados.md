@@ -2,7 +2,7 @@
 layout: page
 title: Dados
 subtitle: "Dados do município de São Paulo" 
-permalink: /Dados/
+permalink: /dados/
 feature-img: "assets/img/pexels/pexels-photo.png"
 tags: [Dados]
 ---
