@@ -94,8 +94,17 @@ h1.title {
 
 }
 
+.dados-contact[data-theme="light"]{
+  color: rgb(0, 0, 0);
+  font-size: 5rem;
+}
+
+.dados-contact[data-theme="dark"]{
+  color: rgb(255, 255, 255);
+  font-size: 5rem;
+}
+
 .dados-contact{
-  color: white;
   font-size: 5rem;
 }
 
