@@ -2,6 +2,7 @@
 layout: post
 title: Dados
 tema: mode
+permalink: "/teste-mode/"
 # feature-img:  adicione uma imagem se quiser 
 description: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 tags: [Katex, Mermaid, Markdown]

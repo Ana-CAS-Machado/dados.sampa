@@ -2,12 +2,15 @@
 layout: post
 title: Pougy
 tema: teste
+permalink: "/teste/"
 # feature-img:  adicione uma imagem se quiser 
 description: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 categories: pougy
 ---
 
 # Ola
+
+# Isso é um Teste
 
 ## Ola novamente 
 
