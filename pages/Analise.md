@@ -31,7 +31,7 @@ position: 3
           <div class="linha"></div>
           <h2>{{ post.tema }}</h2>
           <p>{{ post.description }}</p>
-          <a class="btn" href="{{ post.permalink }}">Leia Mais</a>
+          <a class="btn" href="{{ post.permalink | relative_url }}">Leia Mais</a>
         </div>
       </div>
    {% endfor %}
